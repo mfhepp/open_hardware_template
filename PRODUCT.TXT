@@ -1,0 +1,1 @@
+This file should contain contact point information in order to receive information about manufactured products, see section 4.2 of the CERN OHL license.
