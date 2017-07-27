@@ -1,6 +1,8 @@
-MIT License
+Copyright (c) Martin Hepp 2017.
 
-Copyright (c) 2017 Martin Hepp
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2 or later.You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions
+
+The software included in the software folder is also licensed under the  MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
