@@ -4,6 +4,12 @@
 # Remove comment in real project, included in here to have it in the repo
 # todo.txt
 
+# Datasheets
+# Preserve the folder but do not redistribute the datasheets.
+datasheets/
+!datasheets/.gitkeep
+
+
 # Software
 # TBD, project specific
 
