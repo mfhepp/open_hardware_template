@@ -1,6 +1,8 @@
 # Open Hardware Template
 This is a skeleton for open hardware projects, based on KiCad designs for the schematics and PCB, and some software. 
 
+The GitHub project page is at https://mfhepp.github.io/open_hardware_template/.
+
 It is currently not set up as a real KiCad template, because I want to preserve the entire directory structure, including stuff managed outside of KiCad.
 
 Thus, you have to manually rename all myproject.* files in the main folder
