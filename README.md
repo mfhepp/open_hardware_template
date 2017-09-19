@@ -13,10 +13,13 @@ after cloning the repository.
 ## Installation
 
 1. Clone the repository
+
     `git clone https://github.com/mfhepp/open_hardware_template.git`
 2. Rename the folder
+
     `mv /open_hardware_template /<yourprojectname>`
 3. Rename all myproject.* files in the main folder after cloning the repository.
+
     `./rename.sh <yourprojectname>`
 4. Design your product.
 5. Build it.
