@@ -37,8 +37,15 @@
   )
 
   (setup
-    (last_trace_width 0.1524)
-    (trace_clearance 0.1524)
+    (last_trace_width 0.254)
+    (user_trace_width 0.1524)
+    (user_trace_width 0.254)
+    (user_trace_width 0.508)
+    (user_trace_width 0.762)
+    (user_trace_width 1.016)
+    (user_trace_width 1.27)
+    (user_trace_width 1.524)
+    (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.1524)
@@ -93,16 +100,7 @@
   (net 0 "")
 
   (net_class Default "This is the default net class."
-    (clearance 0.1524)
-    (trace_width 0.1524)
-    (via_dia 0.6858)
-    (via_drill 0.3302)
-    (uvia_dia 0.762)
-    (uvia_drill 0.1)
-  )
-
-  (net_class PWR1A ""
-    (clearance 0.1524)
+    (clearance 0.254)
     (trace_width 0.254)
     (via_dia 0.6858)
     (via_drill 0.3302)
@@ -110,11 +108,47 @@
     (uvia_drill 0.1)
   )
 
-  (net_class PWR2A ""
+  (net_class 10mil ""
+    (clearance 0.254)
+    (trace_width 0.254)
+    (via_dia 0.6858)
+    (via_drill 0.3302)
+    (uvia_dia 0.762)
+    (uvia_drill 0.1)
+  )
+
+  (net_class 20mil-500mA ""
+    (clearance 0.254)
+    (trace_width 0.508)
+    (via_dia 0.6858)
+    (via_drill 0.3302)
+    (uvia_dia 0.762)
+    (uvia_drill 0.1)
+  )
+
+  (net_class 30mil-700mA ""
+    (clearance 0.254)
+    (trace_width 1.778)
+    (via_dia 0.6858)
+    (via_drill 0.3302)
+    (uvia_dia 0.762)
+    (uvia_drill 0.1)
+  )
+
+  (net_class 50mil-1A ""
+    (clearance 0.254)
+    (trace_width 1.27)
+    (via_dia 0.6858)
+    (via_drill 0.3302)
+    (uvia_dia 0.762)
+    (uvia_drill 0.1)
+  )
+
+  (net_class 6mil ""
     (clearance 0.1524)
-    (trace_width 0.762)
-    (via_dia 0.9144)
-    (via_drill 0.508)
+    (trace_width 0.1524)
+    (via_dia 0.6858)
+    (via_drill 0.3302)
     (uvia_dia 0.762)
     (uvia_drill 0.1)
   )
