@@ -8,18 +8,21 @@ It is currently not set up as a real KiCad template, because I want to preserve 
 Thus, you have to manually rename all myproject.* files in the main folder
 after cloning the repository.
 
+**New:** There is now a bash script rename.sh that simplifies this task.
+
 ## Installation
 
 1. Clone the repository
-
     `git clone https://github.com/mfhepp/open_hardware_template.git`
 2. Rename the folder
-
     `mv /open_hardware_template /<yourprojectname>`
 3. Rename all myproject.* files in the main folder after cloning the repository.
+    `./rename.sh <yourprojectname>`
 4. Design your product.
 5. Build it.
 6. Share it!
+
+Please do NOT make your own designs forks of this template on Github.
 
 ## Design Rules and PCB Production
 The design rules are set up for OSH Park, but double-check they fit your needs before using them. 

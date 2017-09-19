@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:myproject-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,4 +43,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 600  7675 0    118  ~ 0
+Licensed under CERN OHL v.1.2
 $EndSCHEMATC
