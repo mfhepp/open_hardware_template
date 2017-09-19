@@ -36,3 +36,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Local folder
+local/
