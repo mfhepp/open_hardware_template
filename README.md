@@ -1,3 +1,5 @@
+![Open Hardware Template](https://raw.githubusercontent.com/mfhepp/open_hardware_template/master/hero.png)
+
 # Open Hardware Template
 This is a skeleton for open hardware projects, based on KiCad designs for the schematics and PCB, and some software. 
 
